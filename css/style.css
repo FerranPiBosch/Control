@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@200&display=swap');
+body{
+    color: white;
+    background-color: rgb(14, 23, 30);
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: rgb(26, 36, 46);
+    display: flex;
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+
+    display: flex;
+    width: 60%;
+    justify-content: space-around;
+    align-items: center;
+      
+}
+.desplegable{
+    position: relative;
+    display: inline-block;
+
+}
+.contingut_desplegable{
+    display: none;
+    position: absolute;
+    background-color:rgb(43, 42, 58);
+    min-width: 160px;
+    z-index: 1;
+}
+.contingut_desplegable a {
+    display: block;
+    margin-left: 10px;
+    height: 50px;
+    width: 200px;
+    border-bottom: 1px solid grey;
+
+}
+.desplegable:hover .contingut_desplegable{
+    display: block;
+}
+.busqueda{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.boto_usuari{
+    background-color: rgb(100, 157, 180);
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 30%;
+}
+main{
+    width: 85%;
+    margin: auto;
+}
+h1{
+    font-family: "Big Shoulders Stencil Text";
+    font-size: 80px;
+    margin-top: 15px;
+}
+.caixa_etiquetes{
+    display: flex;
+    align-items: center;
+}
+.etiqueta_text{
+    color:rgb(93, 138, 148) ;
+    font-weight: bolder;
+}
+.etiqueta{
+    margin:10px;
+    border: 1px solid rgb(93, 138, 148);
+    color:rgb(93, 138, 148) ;
+    border-radius: 10%;
+    padding: 2px;
+}
+.pelicula_principal{
+    background: linear-gradient(45deg, rgb(14, 23, 30,1) 0%, rgb(14, 23, 30) 45%, rgba(14, 23, 30, 0)100%), url(../media/cover-2.png),no-repeat center center fixed;
+    background-size:cover;
+}
+p{
+    display: block;
+}
+.descripcio{
+    width: 50%;
+}
+.text_blau{
+    color:rgb(78, 161, 229);
+    padding-left: 20px;
+
+}
+.botonera{
+    display: flex;
+}
+.boton{
+    background-color:rgb(65, 82, 100) ;
+margin: 15px;
+width: 100px;
+border-radius: 5px;
+text-align: center;
+justify-content: baseline;
+}
+.relacionado{
+    margin:20px;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(26, 36, 46);
+}
+footer img{
+    display: block;
+    margin: auto;
+}
+footer a{
+    color:rgb(41, 114, 192);
+    margin-right: 15px;
+}
+.text_footer{
+    display:flex;
+    align-items: center;
+
+    justify-content: space-between;
+}
